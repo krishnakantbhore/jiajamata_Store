@@ -15,7 +15,7 @@ import com.jijamataCollege.storeManagementSystem.dao.RemaingProductsDao;
 import com.jijamataCollege.storeManagementSystem.service.RemainingProductService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000/",allowCredentials = "true")
+@CrossOrigin(origins = "https://storemanagement.vercel.app/",allowCredentials = "true")
 public class RemainingProductsController {
 
 	@Autowired

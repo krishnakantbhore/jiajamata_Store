@@ -14,7 +14,7 @@ import com.jijamataCollege.storeManagementSystem.Entity.Outword;
 import com.jijamataCollege.storeManagementSystem.service.OutwordService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000",allowCredentials = "true")
+@CrossOrigin(origins = "https://storemanagement.vercel.app",allowCredentials = "true")
 public class OutwordController {
 	
 	@Autowired

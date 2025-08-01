@@ -16,7 +16,7 @@ import com.jijamataCollege.storeManagementSystem.Entity.Inword;
 import com.jijamataCollege.storeManagementSystem.service.InwordService;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000/",allowCredentials = "true")
+@CrossOrigin(origins = "https://storemanagement.vercel.app/",allowCredentials = "true")
 public class InwordController {
 
 	@Autowired
